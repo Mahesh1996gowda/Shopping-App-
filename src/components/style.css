@@ -1,0 +1,36 @@
+.appDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.headerDiv{
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.cart{
+    font-size: 30px;
+    margin-right: 50px;
+    color: rgb(42, 29, 29);
+    cursor: pointer;
+}
+.pageDiv{
+    height: 60px;
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    }
+    .footerDiv{
+        height: 60px;
+        background-color: black;
+        }
+        .itemCardImage{
+            height: 200px !important;
+            object-fit:scale-down ;
+        }
+    .itemCard,.itemCardBadge{
+        margin: 10px;
+    }
+   
